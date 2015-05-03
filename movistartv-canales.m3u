@@ -1,0 +1,280 @@
+#EXTM3U
+#EXTINF:-1,0 - Movistar TV
+#EXTTV:CULTURA,ESPECTÁCULOS;es;CPROM;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/597.jpg
+rtp://@239.0.0.77:8208
+#EXTINF:-1,1 - La 1
+#EXTTV:CULTURA,ESPECTÁCULOS;es;TVE;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1.jpg
+rtp://@239.0.0.76:8208
+#EXTINF:-1,2 - La 2
+#EXTTV:CULTURA,ESPECTÁCULOS;es;La 2;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/3.jpg
+rtp://@239.0.0.2:8208
+#EXTINF:-1,3 - Antena 3
+#EXTTV:CULTURA,ESPECTÁCULOS;es;A3;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/4.jpg
+rtp://@239.0.0.3:8208
+#EXTINF:-1,4 - Cuatro HD
+#EXTTV:VARIEDADES;es;4HD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1825.jpg
+rtp://@239.0.0.177:8208
+#EXTINF:-1,5 - Tele 5 HD
+#EXTTV:CULTURA,ESPECTÁCULOS;es;T5HD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1826.jpg
+rtp://@239.0.0.176:8208
+#EXTINF:-1,6 - laSexta
+#EXTTV:CULTURA,ESPECTÁCULOS;es;Sexta;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/717.jpg
+rtp://@239.0.0.58:8208
+#EXTINF:-1,7 - Telemadrid
+#EXTTV:ENTRETENIMIENTO;es;TMAD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/58.jpg
+rtp://@239.0.0.25:8208
+#EXTINF:-1,8 - La Otra
+#EXTTV:ENTRETENIMIENTO;es;OTRA;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/59.jpg
+rtp://@239.0.0.26:8208
+#EXTINF:-1,9 - Movistar Series
+#EXTTV:ANIMACIÓN;es;SERHD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/2383.jpg
+rtp://@239.0.0.184:8208
+#EXTINF:-1,10 - FOX HD
+#EXTTV:POLICIACAS;es;FOXHD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1607.jpg
+rtp://@239.0.9.134:8208
+#EXTINF:-1,11 - AXN HD
+#EXTTV:POLICIACAS;es;AXNHD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1608.jpg
+rtp://@239.0.9.131:8208
+#EXTINF:-1,12 - Calle 13HD
+#EXTTV:POLICIACAS;es;C13HD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1705.jpg
+rtp://@239.0.5.74:8208
+#EXTINF:-1,13 - TNT HD
+#EXTTV:ENTRETENIMIENTO;es;TNTHD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1609.jpg
+rtp://@239.0.5.87:8208
+#EXTINF:-1,14 - FOX life HD
+#EXTTV:ENTRETENIMIENTO;es;FXLHD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/2203.jpg
+rtp://@239.0.5.86:8208
+#EXTINF:-1,15 - Cosmo HD
+#EXTTV:POLICIACAS;es;CosHD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1610.jpg
+rtp://@239.0.5.71:8208
+#EXTINF:-1,16 - AXN W. HD
+#EXTTV:POLICIACAS;es;FCRHD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1611.jpg
+rtp://@239.0.5.79:8208
+#EXTINF:-1,17 - Comedy Central HD
+#EXTTV:POLICIACAS;es;COCHD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/2224.jpg
+rtp://@239.0.0.174:8208
+#EXTINF:-1,18 - SyFyHD
+#EXTTV:POLICIACAS;es;SYFHD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1703.jpg
+rtp://@239.0.5.75:8208
+#EXTINF:-1,19 - Crimen e Inv.
+#EXTTV:POLICIACAS;es;CREIN;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/697.jpg
+rtp://@239.0.0.57:8208
+#EXTINF:-1,20 - FDF
+#EXTTV:POLICIACAS;es;FDFT5;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/747.jpg
+rtp://@239.0.0.84:8208
+#EXTINF:-1,21 - Neox
+#EXTTV:ENTRETENIMIENTO;es;NEOX;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/934.jpg
+rtp://@239.0.0.107:8208
+#EXTINF:-1,22 - Energy
+#EXTTV:VARIEDADES;es;energ;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/884.jpg
+rtp://@239.0.0.59:8208
+#EXTINF:-1,24 - Divinity
+#EXTTV:DRAMA;es;DIVIN;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/663.jpg
+rtp://@239.0.0.48:8208
+#EXTINF:-1,27 - Nova
+#EXTTV:ENTRETENIMIENTO;es;NOVA;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/935.jpg
+rtp://@239.0.0.106:8208
+#EXTINF:-1,29 - Sundance HD
+#EXTTV:ENTRETENIMIENTO;es;SunHD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1615.jpg
+rtp://@239.0.5.72:8208
+#EXTINF:-1,31 - HWD HD
+#EXTTV:POLICIACAS;es;HOLHD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1612.jpg
+rtp://@239.0.5.76:8208
+#EXTINF:-1,32 - AMC HD
+#EXTTV:ENTRETENIMIENTO;es;MGMHD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1613.jpg
+rtp://@239.0.9.132:8208
+#EXTINF:-1,34 - TCM HD
+#EXTTV:ENTRETENIMIENTO;es;TCMHD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/2204.jpg
+rtp://@239.0.5.89:8208
+#EXTINF:-1,38 - Paramount C.
+#EXTTV:AVENTURAS;es;PARCH;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1221.jpg
+rtp://@239.0.0.90:8208
+#EXTINF:-1,40 - EurosportHD
+#EXTTV:POLICIACAS;es;EURHD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1623.jpg
+rtp://@239.0.9.135:8208
+#EXTINF:-1,41 - Eurosport 2
+#EXTTV:POLICIACAS;es;EUSP2;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/338.jpg
+rtp://@239.0.0.37:8208
+#EXTINF:-1,42 - Sportmania
+#EXTTV:POLICIACAS;es;SPMA;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/16.jpg
+rtp://@239.0.0.17:8208
+#EXTINF:-1,43 - Teledeporte
+#EXTTV:POLICIACAS;es;TDEP;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/744.jpg
+rtp://@239.0.0.79:8208
+#EXTINF:-1,44 - Iberalia
+#EXTTV:ENTRETENIMIENTO;es;IBER;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/936.jpg
+rtp://@239.0.5.6:8208
+#EXTINF:-1,50 - C+LigaHD
+#EXTTV:FÚTBOL;es;GOLHD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1622.jpg
+rtp://@239.0.9.129:8208
+#EXTINF:-1,51 - C+Liga Multi
+#EXTTV:FÚTBOL;es;FUT3;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1063.jpg
+rtp://@239.0.0.119:8208
+#EXTINF:-1,54 - Movistar Fútbol HD
+#EXTTV:ENTRETENIMIENTO;es;QU1HD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/2268.jpg
+rtp://@239.0.5.185:8208
+#EXTINF:-1,55 - C+L.CampHD
+#EXTTV:ENTRETENIMIENTO;es;CP3D;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1621.jpg
+rtp://@239.0.9.138:8208
+#EXTINF:-1,56 - Gol 2 IntHD
+#EXTTV:ENTRETENIMIENTO;es;G2INT;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1667.jpg
+rtp://@239.0.9.146:8208
+#EXTINF:-1,64 - Futbol R.
+#EXTTV:FÚTBOL;es;fut;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/12.jpg
+rtp://@239.0.0.97:8208
+#EXTINF:-1,70 - NAT GEO HD
+#EXTTV:POLICIACAS;es;NATHD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1643.jpg
+rtp://@239.0.5.78:8208
+#EXTINF:-1,71 - NG Wild HD
+#EXTTV:ENTRETENIMIENTO;es;NGEHD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1619.jpg
+rtp://@239.0.9.136:8208
+#EXTINF:-1,72 - Viajar HD
+#EXTTV:POLICIACAS;es;ViaHD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1617.jpg
+rtp://@239.0.5.73:8208
+#EXTINF:-1,73 - DSC HD
+#EXTTV:POLICIACAS;es;DSCHD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/2205.jpg
+rtp://@239.0.5.77:8208
+#EXTINF:-1,74 - ODISEA HD
+#EXTTV:POLICIACAS;es;FHD2;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1618.jpg
+rtp://@239.0.5.82:8208
+#EXTINF:-1,75 - Historia
+#EXTTV:POLICIACAS;es;HIST;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/17.jpg
+rtp://@239.0.0.19:8208
+#EXTINF:-1,76 - A&E
+#EXTTV:POLICIACAS;es;A&E;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/340.jpg
+rtp://@239.0.0.38:8208
+#EXTINF:-1,77 - Cocina
+#EXTTV:POLICIACAS;es;COCI;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/22.jpg
+rtp://@239.0.0.27:8208
+#EXTINF:-1,78 - Decasa
+#EXTTV:POLICIACAS;es;DCASA;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/850.jpg
+rtp://@239.0.0.71:8208
+#EXTINF:-1,79 - Discov.Max
+#EXTTV:POLICIACAS;es;TVCi;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/657.jpg
+rtp://@239.0.0.32:8208
+#EXTINF:-1,80 - Baby TV
+#EXTTV:POLICIACAS;es;BABTV;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/778.jpg
+rtp://@239.0.0.113:8208
+#EXTINF:-1,81 - Disney Junior
+#EXTTV:POLICIACAS;es;PLAY;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/10.jpg
+rtp://@239.0.0.10:8208
+#EXTINF:-1,82 - Canal Panda
+#EXTTV:ENTRETENIMIENTO;es;PANDA;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1019.jpg
+rtp://@239.0.0.117:8208
+#EXTINF:-1,84 - Nickelodeon
+#EXTTV:POLICIACAS;es;NICKE;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/579.jpg
+rtp://@239.0.0.69:8208
+#EXTINF:-1,85 - Disney XD
+#EXTTV:POLICIACAS;es;DISXD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/11.jpg
+rtp://@239.0.0.11:8208
+#EXTINF:-1,86 - Disney HD
+#EXTTV:POLICIACAS;es;DISHD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1616.jpg
+rtp://@239.0.0.173:8208
+#EXTINF:-1,87 - Boing
+#EXTTV:POLICIACAS;es;ARSAT;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/578.jpg
+rtp://@239.0.0.66:8208
+#EXTINF:-1,88 - Clan TVE
+#EXTTV:POLICIACAS;es;CLAN;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/745.jpg
+rtp://@239.0.0.80:8208
+#EXTINF:-1,90 - Sol Música
+#EXTTV:POLICIACAS;es;SOLM;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/341.jpg
+rtp://@239.0.0.39:8208
+#EXTINF:-1,91 - 40 TV
+#EXTTV:POLICIACAS;es;40TV;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/741.jpg
+rtp://@239.0.0.12:8208
+#EXTINF:-1,92 - VH1
+#EXTTV:POLICIACAS;es;VH1;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/581.jpg
+rtp://@239.0.0.75:8208
+#EXTINF:-1,100 - Fox News
+#EXTTV:POLICIACAS;es;FOXNW;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/845.jpg
+rtp://@239.0.7.65:8208
+#EXTINF:-1,101 - BBC World
+#EXTTV:POLICIACAS;es;BBCW;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/197.jpg
+rtp://@239.0.0.30:8208
+#EXTINF:-1,102 - CNN Int.
+#EXTTV:POLICIACAS;es;CNNI;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/342.jpg
+rtp://@239.0.0.40:8208
+#EXTINF:-1,103 - Euronews
+#EXTTV:POLICIACAS;es;Eurnw;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/119.jpg
+rtp://@239.0.0.28:8208
+#EXTINF:-1,104 - Canal 24 H.
+#EXTTV:POLICIACAS;es;C24H;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/743.jpg
+rtp://@239.0.0.78:8208
+#EXTINF:-1,105 - Al Jazeera
+#EXTTV:POLICIACAS;es;ALJAZ;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/846.jpg
+rtp://@239.0.7.66:8208
+#EXTINF:-1,106 - France 24
+#EXTTV:POLICIACAS;es;FRA24;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/847.jpg
+rtp://@239.0.7.67:8208
+#EXTINF:-1,107 - Russia T.
+#EXTTV:POLICIACAS;es;RUSSI;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/848.jpg
+rtp://@239.0.7.68:8208
+#EXTINF:-1,108 - CNBC Eur.
+#EXTTV:POLICIACAS;es;CNBC;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/849.jpg
+rtp://@239.0.7.69:8208
+#EXTINF:-1,109 - CCTV E
+#EXTTV:CULTURA,ESPECTÁCULOS;es;CCTVE;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/752.jpg
+rtp://@239.0.0.65:8208
+#EXTINF:-1,110 - TV5 Monde
+#EXTTV:POLICIACAS;es;TV5eu;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/198.jpg
+rtp://@239.0.0.31:8208
+#EXTINF:-1,111 - Bloomberg
+#EXTTV:POLICIACAS;es;Bloom;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/120.jpg
+rtp://@239.0.0.29:8208
+#EXTINF:-1,112 - Intereconomía
+#EXTTV:POLICIACAS;es;INTTV;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/582.jpg
+rtp://@239.0.0.63:8208
+#EXTINF:-1,114 - 13 TV
+#EXTTV:POLICIACAS;es;13TV;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/844.jpg
+rtp://@239.0.0.91:8208
+#EXTINF:-1,116 - I 24 News
+#EXTTV:ENTRETENIMIENTO;es;I24NW;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1807.jpg
+rtp://@239.0.0.220:8208
+#EXTINF:-1,117 - CNC World
+#EXTTV:ENTRETENIMIENTO;es;CNCWD;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1805.jpg
+rtp://@239.0.0.221:8208
+#EXTINF:-1,118 - Canal Orbe 21
+#EXTTV:ENTRETENIMIENTO;es;COR21;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/2463.jpg
+rtp://@239.0.0.45:8208
+#EXTINF:-1,150 - Andalucía TV
+#EXTTV:ENTRETENIMIENTO;es;ANDSA;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/2275.jpg
+rtp://@239.0.0.1:8208
+#EXTINF:-1,151 - Galicia TV Europa
+#EXTTV:ENTRETENIMIENTO;es;TVGEU;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/2273.jpg
+rtp://@239.0.3.37:8208
+#EXTINF:-1,152 - TV3CAT
+#EXTTV:ENTRETENIMIENTO;es;TV3SA;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/2271.jpg
+rtp://@239.0.3.36:8208
+#EXTINF:-1,153 - ETB Sat.
+#EXTTV:ENTRETENIMIENTO;es;ETBSA;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/2269.jpg
+rtp://@239.0.0.60:8208
+#EXTINF:-1,200 - LTC
+#EXTTV:POLICIACAS;es;TIEND;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/886.jpg
+rtp://@239.0.0.98:8208
+#EXTINF:-1,504 - Cuatro
+#EXTTV:VARIEDADES;es;CUATR;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1843.jpg
+rtp://@239.0.0.4:8208
+#EXTINF:-1,505 - Tele 5
+#EXTTV:CULTURA,ESPECTÁCULOS;es;TELE5;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1844.jpg
+rtp://@239.0.0.5:8208
+#EXTINF:-1,523 - Calle 13
+#EXTTV:POLICIACAS;es;CA13;http://172.26.22.23:2001/appclient/incoming/epg/MAY_1/imSer/1706.jpg
+rtp://@239.0.0.13:8208
+
+#
+# Movistar ENERGY - Motor
+#
+
+#EXTINF:-1, 247 - Movistar F1
+#EXTTV:ENTRETENIMIENTO;es;F1
+rtp://@239.0.0.210:8208
+#EXTINF:-1, 248 - Movistar MotoGP
+#EXTTV:ENTRETENIMIENTO;es;MotoGP
+rtp://@239.0.3.38:8208 
+
+#EXTINF:-1, 047 - Movistar F1 HD
+#EXTTV:ENTRETENIMIENTO;es;F1HD
+rtp://@239.0.5.90:8208
+#EXTINF:-1, 048 - Movistar MotoGP HD
+#EXTTV:ENTRETENIMIENTO;es;MGPHD
+rtp://@239.0.5.107:8208
