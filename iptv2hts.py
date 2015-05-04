@@ -162,16 +162,13 @@ def readm3u(infile, removenum, channumbering, inputcodec):
 			else:
 				chname = buff[1]
 
-			# Debug
-			# print "Nombre del canal: " + chname
-
 			if m and channumbering == CHAN_NUMBERING_NAMES:
 				chnumber = m.group(1)
 			elif channumbering == CHAN_NUMBERING_DURATION:
 				chnumber = buff[0]
 				
-			# Debug
-			# print "Número del canal: " + str(chnumber)
+			# Mostrar qué hemos leido
+			print "Lectura (M3U), canal: " + str(chnumber) + " - " + chname
 
 
 		# Línea EXTTV
@@ -189,39 +186,44 @@ def readm3u(infile, removenum, channumbering, inputcodec):
 			#
 			buff = line[7:].split(';')
 
-			# Construyo el Diccionario de TAGS
-			# :
-			# u'ANIMACIÓN': {'num': 6, 'name': u'ANIMACIÓN'},
-			# u'POLICIACAS': {'num': 7, 'name': u'POLICIACAS'},
-			# :
-			#
-			chtags = buff[0].split(',')
-			for t in chtags:
-				if not t in tags:
-					tagcnt += 1
-					tags[t] = {'num': tagcnt, 'name': t}
+			if buff:
+				# Construyo el Diccionario de TAGS
+				# :
+				# u'ANIMACIÓN': {'num': 6, 'name': u'ANIMACIÓN'},
+				# u'POLICIACAS': {'num': 7, 'name': u'POLICIACAS'},
+				# :
+				#
+				chtags = buff[0].split(',')
+				if chtags is not None:
+					for t in chtags:
+						if not t in tags:
+							tagcnt += 1
+							tags[t] = {'num': tagcnt, 'name': t}
 					
-			# Añado el lenguaje al Diccionario de TAGS
-			# :
-			# u'es': {'num': 3, 'name': u'es'}}
-			# :
-			#
-			chlanguage = buff[1]
-			if chlanguage:
-				if not chlanguage in tags:
-					tagcnt += 1
-					tags[chlanguage] = {'num': tagcnt, 'name': chlanguage}
-				chtags.append(chlanguage)
+				# Añado el lenguaje al Diccionario de TAGS
+				# :
+				# u'es': {'num': 3, 'name': u'es'}}
+				# :
+				#
+				if len(buff) > 1:
+					chlanguage = buff[1]
+					if chlanguage:
+						if not chlanguage in tags:
+							tagcnt += 1
+							tags[chlanguage] = {'num': tagcnt, 'name': chlanguage}
+						chtags.append(chlanguage)
 				
-			# Me guardo el XMLTV ID (Es el id que se usa para identificar el EPG)
-			# 
-			#
-			chxmltv = buff[2]
+				# Me guardo el XMLTV ID (Es el id que se usa para identificar el EPG)
+				# 
+				#
+				if len(buff) > 2:
+					chxmltv = buff[2]
 
-			# Me guardo el URL del icono
-			# 
-			#
-			chicon = buff[3] if len(buff) > 3 else None
+				# Me guardo el URL del icono
+				# 
+				#
+				if len(buff) > 3:
+					chicon = buff[3] if len(buff) > 3 else None
 			
 		# Línea Canal 
 		#
@@ -331,15 +333,14 @@ def writechannels(networkname, udpxy, iface, output):
 		"max_timeout": 10,				# Max timeout (seconds)
 		"networkname": networkname,		# Network name
 		"nid": 0,
-		"autodiscovery": "true",		# Network discovery
+		"autodiscovery": "false",		# Network discovery
 		"skipinitscan": "true",			# Skip initial scan
-		"idlescan": "true",				# Idle scan (after sacnning change to 0)
+		"idlescan": "false",			# Idle scan (after sacnning change to 0)
 		"sid_chnum": "false",
 		"ignore_chnum": "false",
 		"localtime": "false"
 	})
 	
-
 	#input/iptv/networks/uuid()/muxes
 	path = os.path.join(path, 'muxes')
 	if not os.path.exists(path):
@@ -373,6 +374,10 @@ def writechannels(networkname, udpxy, iface, output):
 			'enabled': 1,
 			'scan_result': 2  # mark scan result (1 - ok, 2 - failed)
 		}
+		
+		# Mostrar qué hemos escrito
+		print "Insertado el Mux: " + channel['name'] + " - " + url
+		
 		#input/iptv/networks/uuid()/muxes/uuid()/config file
 		writejson(os.path.join(muxpath, 'config'), jsmux)
 		#input/iptv/networks/uuid()/muxes/uuid()/services/uuid()
