@@ -1,8 +1,10 @@
+
+NOTA: Este proyecto todavía está Work in Progress y vinculado a este apunte técnico: [http://www.luispa.com/?p=2647](http://www.luispa.com/?p=2647)
+
+
 ## iptv2hts
 ===
 
-**PROYECTO WORK IN PROGRESS !!!! (3 Mayo 2015)
-**
 
 Genera **Muxes** y **Canales** en Tvheadend 3.x partiendo de un fichero playlist .M3U. He creado este programa partiendo de uno ya existente (ver Licencia) con el objetivo de personalizarlo para poder insertar los canales de Movistar TV en una instalación con Tvheadend. En principio vale para cualquier fichero IPTV (en formato .m3u) pero todas las pruebas las he realizado con dicho proveedor. 
 
