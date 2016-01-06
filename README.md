@@ -121,4 +121,4 @@ iptv2hts está basado en el trabajo de Gregor Rudolf: [GitHub grudolf/m3u2hts](h
 
 movistartv2xmltv está basado en el trabajo de "ese": [GitHub ese/movistartv2xmltv](https://github.com/ese/movistartv2xmltv). 
 
-Este código se licencia bajo MIT: http://www.opensource.org/licenses/mit-license.php
+Este código se licencia bajo la [MIT license](http://www.opensource.org/licenses/mit-license.php)
